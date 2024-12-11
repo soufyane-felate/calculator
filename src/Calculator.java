@@ -34,11 +34,24 @@ public class Calculator {
         double res= Math.sqrt(n1);
         return res;
     }
+    /*
+    Fonction factorielle utilisant une methode Recursive
     int Factorielle(int n1) {
         if (n1 <= 1) {
             return 1;
         }
         return n1 * Factorielle(n1 - 1);
+    }
+     */
+    // Fonction factorielle utilisant une methode simple
+    int factorielle(int n1)
+    {
+        int f=1;
+        for (int i =1;i<=n1;i++)
+        {
+            f*=i;
+        }
+        return f;
     }
 
 
