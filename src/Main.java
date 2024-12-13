@@ -62,6 +62,7 @@ public class Main {
                 sc.nextLine();
 
                 switch (op) {
+
                     case "/":
                         if (n2 == 0) {
                             System.err.println("Erreur : Division par zero.");
